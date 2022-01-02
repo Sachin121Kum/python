@@ -11,11 +11,12 @@ opr=input("Enter the Opearator")
 
 if opr is "+":
     print(num1+num2)
-elif opr is "-":
+if opr is "-":
     print(num1-num2)
-elif opr is "*":
+if opr is "*":
     print(num*num2)
-elif opr is "/":
+if opr is "/":
     print(num1/num2)
-else:
+
+if opr is not "+" and opr is not "-" and opr is not "*" and opr is not "/":
     print("Invalid Operator")
